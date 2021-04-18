@@ -1,0 +1,11 @@
+CREATE TABLE `vehicules` (
+  `id_vehicule` int(11) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(255) NOT NULL,
+  `nom_spawn` varchar(255) NOT NULL,
+  `categorie` varchar(255) NOT NULL,
+  PRIMARY KEY (`id_vehicule`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `vehicules` (`id_vehicule`, `nom`, `nom_spawn`, `categorie`) VALUES
+(2,	'test',	'test2',	'audi'),
+(3,	'loick',	'loick2',	'bmw');
